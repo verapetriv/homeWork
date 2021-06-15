@@ -1,0 +1,70 @@
+@value main-color: #c3c0c0;
+
+.profile {
+    height: 300px;
+    width: 250px;
+    border: 1px solid main-color;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.description {
+    margin: 20px auto 0 auto;
+    text-align: center;
+    color: main-color;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(245, 240, 240);
+}
+
+.name {
+    margin: 15px 0 0 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.tag {
+    margin: 10px 0 0 0;
+    font-size: 13px;
+}
+
+.location {
+    margin: 10px 0 0 0;
+    font-size: 15px;
+}
+
+.stats {
+    display: flex;
+    background-color: rgb(246 244 244 / 44%);
+    border-top: 1px solid main-color;
+    padding-inline-start: 0;
+}
+
+.stats li {
+    flex: 0 0 33.333333%;
+    padding: 17px 0;
+    display: inline-block;
+    text-align: center;
+}
+  
+.stats li:not(:last-child) {
+    border-right: 1px solid rgb(228, 233, 240);
+}
+
+.label {
+    display: block;
+    color: main-color;
+}
+
+.quantity {
+    display: block;
+    font-weight: bold;
+    color: rgb(121 119 119);
+}
+
